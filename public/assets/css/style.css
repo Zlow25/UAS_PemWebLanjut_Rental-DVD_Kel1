@@ -1,0 +1,59 @@
+/* Start BackEnd Layouts main */
+.main {
+    height: 100vh;
+}
+
+.sidebar {
+    background: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.sidebar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+}
+
+.sidebar a:hover {
+    background: #9d9d9d;
+}
+
+.active {
+    background-color: #9d9d9d;
+}
+
+/* End BackEnd Layouts main */
+
+/* Start BackEnd Dashboard */
+.card-data {
+    border: solid;
+    padding: 20px 30px;
+    color: rgb(255, 255, 255);
+}
+
+.card-data.dvd {
+    background-color: teal;
+}
+
+.card-data.category {
+    background-color: orangered;
+}
+
+.card-data.user {
+    background-color: purple;
+}
+
+.card-data i {
+    font-size: 25px;
+}
+
+.card-desc {
+    font-size: 25px;
+}
+
+.card-count {
+    font-size: 25px;
+}
+
+/* End BackEnd Dashboard */
